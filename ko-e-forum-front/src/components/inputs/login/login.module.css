@@ -1,0 +1,23 @@
+.areaForm, .areaInput {
+    display: flex;
+    flex-direction: column;
+}
+.areaForm {
+    background-color: rgba(128, 128, 128, 93%);
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100dvh;
+    padding: 40px;
+}
+.areaInput {
+    gap: 5px;
+}
+input[type=submit], .esqueciSenha {
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+}
+.esqueciSenha {
+    color: white;
+    background-color: transparent;
+}

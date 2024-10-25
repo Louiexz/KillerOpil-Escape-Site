@@ -1,0 +1,25 @@
+.areaOutside {
+    background-image: url('./background.jpg');
+    background-attachment: fixed;
+    background-position: 40%;
+    padding: 0px 5vw;
+    color: white;
+    max-width: 100%;
+}
+input {
+    box-shadow: 0px 0px 1px 1px red;
+    font-size: 16px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+}
+label {
+    text-align: left;
+    font-size: 20px;
+}
+.buttons {
+    box-shadow: none !important;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 10px
+}

@@ -1,0 +1,19 @@
+main, .carrousel, .collectables, .skins, .enemies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.carrousel, .collectables, .skins, .enemies {
+    img {
+        object-fit: contain;
+        pointer-events: none;
+        max-height: 20dvh;
+    }
+}
+.carrousel {
+    img {
+        max-height: 40dvh;
+        max-width: 33%;
+    }
+}

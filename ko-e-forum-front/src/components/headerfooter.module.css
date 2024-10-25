@@ -1,0 +1,14 @@
+header, footer {
+  background-color: #260036;
+  min-height: 10dvh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+
+  img {
+      cursor: pointer;
+      max-height: 100px;
+  }
+}

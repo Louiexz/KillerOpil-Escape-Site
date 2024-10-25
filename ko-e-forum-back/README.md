@@ -8,17 +8,10 @@ Website - Forum for my personal game: KillerOpil-Escape
 - Cross platform
 
 ## Stack
+
     - JavaScript
-
-    Front:
-
-        - React
-        - Vite
-    
-    Backend:
-
-        - Nodejs
-        - MongoDB
+    - Nodejs
+    - MongoDB
 
 
 ## Environment Variables
@@ -33,16 +26,7 @@ To run this project, you will need to add the following environment variables to
 
 Install killeropil-escape-site with npm
 ```bash
-Choice Backend:
-
     - cd ko-e-forum-back
-
-Choice Frontend:
-
-    - cd ko-e-forum-front
-
-Next step:
-
     - npm install
     - npm start
 ```

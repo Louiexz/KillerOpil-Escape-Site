@@ -1,0 +1,15 @@
+.areaRegister, .areaInput {
+    display: flex;
+    flex-direction: column;
+}
+.areaRegister {
+    background-color: rgba(128, 128, 128, 93%);
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100dvh;
+    padding: 40px;
+}
+.areaInput {
+    min-width: 50%;
+    gap: 5px;
+}
